@@ -1,0 +1,9 @@
+Fuctional Interface
+   - An interface with single abstract method
+SAM - Single Abstract Method Interfaces -> java 1.0
+@FunctionalInterface -> java 8
+
+-Consumer, BiConsumer
+-Predicate, BiPredicate
+-Function, BiFunction,UnaryOperator,BinaryOperator
+-Supplier
