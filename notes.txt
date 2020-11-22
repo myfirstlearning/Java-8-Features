@@ -3,7 +3,23 @@ Fuctional Interface
 SAM - Single Abstract Method Interfaces -> java 1.0
 @FunctionalInterface -> java 8
 
+lambdas helped us to remove anonymous inner classes
+
 -Consumer, BiConsumer
 -Predicate, BiPredicate
 -Function, BiFunction,UnaryOperator,BinaryOperator
 -Supplier
+
+Method Reference
+-shortcut for writing lambda expressions
+-Refer method in a class
+--syntax
+  - ClassName::instance-methodName
+  - ClassName::static-methodName
+  - Instance::methodName
+
+Lambdas and Local Variables
+    - Not allowed to use same local variable name as lambda parameters
+    - Not allowed to re-assign a value to a local variable
+Effectively Final
+    lambdas are allowed to use local variables but not to modify it even they are not final
