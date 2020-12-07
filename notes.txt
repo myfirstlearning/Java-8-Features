@@ -23,3 +23,8 @@ Lambdas and Local Variables
     - Not allowed to re-assign a value to a local variable
 Effectively Final
     lambdas are allowed to use local variables but not to modify it even they are not final
+
+Stream API
+    - perform operations on Collections
+
+    Stream - sequence of elements which can be created out of a collections such as Lists or Arrays or I/O resources
