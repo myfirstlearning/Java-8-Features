@@ -28,3 +28,14 @@ Stream API
     - perform operations on Collections
 
     Stream - sequence of elements which can be created out of a collections such as Lists or Arrays or I/O resources
+
+    Stream Factory Methods - of(), iterate() and generate()
+    of() -> creates stream of certain values passed to this method
+
+    iterate(), generate() -> Used to create infinite Streams
+
+    Numeric Streams
+    -Represents the primitive values in a stream
+    IntStream
+    LongStream
+    DoubleStream
